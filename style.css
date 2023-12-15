@@ -1,0 +1,61 @@
+#eranda {
+    width: 700px;
+    margin: auto;
+    position: absolute;
+}
+
+nav {
+    background: #5db869;
+    display: inline-block;
+    width: 100%;
+    
+}
+
+nav ul {
+    padding: -60px;
+    margin: 0px;
+    list-style: none;
+}
+
+nav ul li {
+    float: left;
+    background-color: #054d23;
+}
+
+nav a {
+    display: block;
+    padding: 20px;
+    color: antiquewhite;
+    line-height: 20px;
+    font-size: 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #ca2121;
+}
+
+nav ul ul {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 6px;
+}
+
+nav ul li:hover > ul {
+    display: block;
+}
+
+nav ul ul li {
+    width: 90px;
+    float: none;
+    display: list-item;
+    position: relative;
+}
+
+nav ul ul ul li {
+    position: relative;
+    top: -70px;
+    left: 40px;
+}
+
